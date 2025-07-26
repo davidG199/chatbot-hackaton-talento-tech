@@ -5,6 +5,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { v4 as uuid } from "uuid";
 import dotenv from "dotenv";
+import cors from "cors"
 
 //CARGAR VARIBLES DE ENTORNO
 dotenv.config();
@@ -15,7 +16,24 @@ const __dirname = path.dirname(__filename);
 //inicio de la api express
 const app = express();
 
-app.use(cors());
+const allowedOrigins = [
+  "https://chatbot-hackaton-talento-tech.vercel.app", // tu frontend en Vercel
+  "http://localhost:5173" // para desarrollo local
+];
+
+app.use(
+  cors({
+    origin: function (origin, callback) {
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
+    methods: ["GET", "POST", "OPTIONS"],
+    allowedHeaders: ["Content-Type"],
+  })
+);
 app.use(express.json());
 
 //id de nuestro proyecto en dialogflow
