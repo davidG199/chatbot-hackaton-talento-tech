@@ -39,7 +39,7 @@ function App() {
 
     //peticion a la api
     try {
-      const res = await fetch("http://localhost:3001/dialogflow", {
+      const res = await fetch("https://chatbot-hackaton-talento-tech.onrender.com/dialogflow", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: input }), //mandamos la input como query
