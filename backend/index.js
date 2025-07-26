@@ -5,7 +5,6 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { v4 as uuid } from "uuid";
 import dotenv from "dotenv";
-import cors from "cors"
 
 //CARGAR VARIBLES DE ENTORNO
 dotenv.config();
