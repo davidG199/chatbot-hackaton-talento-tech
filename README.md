@@ -9,6 +9,7 @@ Creado por:
 
 Documentacion:
 
-proyecto IA[link](https://docs.google.com/document/d/1OJUpX-L9hDxR-GxILjVVgnhVrpxzLS1Ij1Pa_bhbYwk/edit?tab=t.0) 
+[proyecto IA](https://docs.google.com/document/d/1OJUpX-L9hDxR-GxILjVVgnhVrpxzLS1Ij1Pa_bhbYwk/edit?tab=t.0) 
 
-documentacion arquitectura[link](https://docs.google.com/document/d/1BVCqF2ObNknh5CGOIMekmC5z8V1sKwjWxKzPS2-veeg/edit?tab=t.0#heading=h.2ve115hzmazi)
+[documentacion arquitectura](https://docs.google.com/document/d/1BVCqF2ObNknh5CGOIMekmC5z8V1sKwjWxKzPS2-veeg/edit?tab=t.0#heading=h.2ve115hzmazi)
+
