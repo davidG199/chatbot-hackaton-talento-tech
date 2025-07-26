@@ -82,7 +82,7 @@ function App() {
         className=
           {`flex flex-col h-screen ${darkMode ? "bg-gray-900" : "bg-gray-200"}`}>
         <header className=" bg-[#e2551d] text-white p-4 text-lg font-semibold flex items-center justify-center">
-          <h1 className="">Chatbot INGE LEAN</h1>
+          <h1 className="">Chatbot HelpLean</h1>
           <button
             onClick={toggleDarkMode}
             className="absolute right-12 cursor-pointer p-1  rounded-full hover:bg-gray-300 dark:hover:bg-gray-700 transition"
